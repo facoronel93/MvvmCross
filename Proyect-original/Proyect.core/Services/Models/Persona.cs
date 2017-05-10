@@ -18,6 +18,9 @@ namespace Proyect.core.Services.Models
             public string Usuario { get; set; }
 
             [NotNull, MaxLength(250)]
+            public string Password { get; set; }
+
+            [NotNull, MaxLength(250)]
             public string Nombre { get; set; }
 
             [NotNull, MaxLength(250)]

@@ -15,17 +15,19 @@ namespace Proyect.core
         
             public App()
             {
-            RegisterAppStart<RegistroViewModel>();
-            //RegisterAppStart(new CustomStart());
 
-        }
+            RegisterAppStart(new CustomStart());
 
-            public class CustomStart : MvxNavigatingObject, IMvxAppStart
-            {
-                public void Start(object hint = null)
-                {
-                    this.ShowViewModel<RegistroViewModel>();
-                }
             }
-   }
+            
+            
+            public class CustomStart : MvxNavigatingObject, IMvxAppStart
+             {
+                 public void Start(object hint = null)
+                 {
+                this.ShowViewModel<IngresarViewModel>();
+                 }
+             }
+
+    }   
  }

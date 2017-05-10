@@ -43,6 +43,7 @@
     <Compile Include="Services\RespuestaCurrent.cs" />
     <Compile Include="Services\RespuestaLocation.cs" />
     <Compile Include="Services\RespuestaTiempo.cs" />
+    <Compile Include="ViewModels\IngresarViewModel.cs" />
     <Compile Include="ViewModels\viewModelClima.cs" />
     <Compile Include="ViewModels\viewModelHistorial.cs" />
     <Compile Include="ViewModels\RegistroViewModel.cs" />

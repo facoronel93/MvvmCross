@@ -129,6 +129,7 @@
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\IngresarView.cs" />
     <Compile Include="Views\RegistroView.cs" />
     <Compile Include="Views\SplashScreenView.cs" />
   </ItemGroup>
@@ -147,6 +148,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Registro.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Ingresar.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
