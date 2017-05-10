@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/latSection">
+        <TextView
+            android:text="Ingrese Ciudad"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:gravity="right"
+            android:id="@+id/longLabel" />
+        <EditText
+            android:text="rosario"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/Ciudad"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="5dp"
+            local:MvxBind="Text Ciudad" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/getSection">
+        <Button
+            android:text="Obtener Clima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            local:MvxBind="Click Go" />
+        <Button
+            android:text="Guardar en DB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            local:MvxBind="Click GuardarDb" />
+      <Button
+            android:text="historial DB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            local:MvxBind="Click GetHistorial" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/locSection">
+        <TextView
+            android:text="Pais:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:id="@+id/locLabel" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            local:MvxBind="Text Pais" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tempSection">
+        <TextView
+            android:text="Temperatura:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:id="@+id/tempLabel" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="left"
+            local:MvxBind="Text Temperatura" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/humidSection">
+        <TextView
+            android:text="Humedad:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:id="@+id/humidLabel" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="left"
+            local:MvxBind="Text Humedad" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/condSection">
+        <TextView
+            android:text="Fecha - Hora "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:id="@+id/condLabel" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="left"
+            local:MvxBind="Text HoraConsulta" />
+    </LinearLayout>
+ 
+    <Button
+        android:text="historial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click GetRecord" />
+</LinearLayout>
