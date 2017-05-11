@@ -66,5 +66,16 @@ namespace Proyect.core.ViewModels
                 });
             }
         }
+
+        public ICommand Registrar
+        {
+            get
+            {
+
+                return new MvxCommand(() => {
+                    ShowViewModel<RegistroViewModel>();
+                });
+            }
+        }
     }
 }

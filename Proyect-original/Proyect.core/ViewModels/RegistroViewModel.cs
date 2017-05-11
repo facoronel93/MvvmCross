@@ -37,6 +37,26 @@ namespace Proyect.core.ViewModels
             }
         }
 
+        public string Password
+        {
+            get { return persona.Password; }
+            set
+            {
+                persona.Password = value;
+                RaisePropertyChanged(() => Password);
+            }
+        }
+
+        public string Nombre
+        {
+            get { return persona.Nombre; }
+            set
+            {
+                persona.Nombre = value;
+                RaisePropertyChanged(() => Nombre);
+            }
+        }
+
 
         public string Email
         {
@@ -62,15 +82,6 @@ namespace Proyect.core.ViewModels
             }
         }
 
-        public ICommand Login
-        {
-            get
-            {
-                return new MvxCommand(() => {
-                    ShowViewModel<IngresarViewModel>();
-                });
-            }
-        }
 
 
     }

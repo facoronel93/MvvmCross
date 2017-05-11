@@ -12,6 +12,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         local:MvxBind="Text Usuario" />
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Text Password" />
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Text Nombre" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

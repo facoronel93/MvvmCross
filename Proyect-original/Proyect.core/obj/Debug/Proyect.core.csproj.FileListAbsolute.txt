@@ -264,7 +264,6 @@ C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.pdb
 C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.csprojResolveAssemblyReference.cache
 C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
 C:\xamarin fede\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
-F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.csprojResolveAssemblyReference.cache
 F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll
 F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.pdb
 F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll
@@ -285,8 +284,6 @@ F:\git\Proyect-original\Proyect.core\bin\Debug\SQLite-net.xml
 F:\git\Proyect-original\Proyect.core\bin\Debug\System.xml
 F:\git\Proyect-original\Proyect.core\bin\Debug\System.Core.xml
 F:\git\Proyect-original\Proyect.core\bin\Debug\System.Xml.xml
-F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
-F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
 F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
 F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
 F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb

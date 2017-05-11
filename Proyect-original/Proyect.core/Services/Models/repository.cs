@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Proyect.core.Services.Models;
+using Proyect.core.ViewModels;
 
 namespace Proyect.core.Services.Models
 {
@@ -46,32 +47,35 @@ namespace Proyect.core.Services.Models
 
     public void GetUser(Persona usuario)
         {
-            Persona hola = new Persona();
-            hola.Usuario = "fede";
-            hola.Password = "fede";
-            conn.InsertAsync(hola).ConfigureAwait(continueOnCapturedContext: false);
+           
+           /* conn.InsertAsync(hola).ConfigureAwait(continueOnCapturedContext: false);
             var resultado = conn.Table<Persona>().Where(x => x.Usuario == "fede");
             var fedde = resultado.ToListAsync();
-
+            */
             var query = conn.Table<Persona>().Where(
-                   p1 => p1.Usuario == "fede").FirstAsync();
+                   p1 => p1.Usuario == usuario.Usuario).FirstAsync();
 
             asd.Usuario = query.Result.Usuario;
           
-            if (resultado == null)
+            if (query.Result.Usuario != null)
             {
                 //usuario inexistente
             }
             else
             {
-                if (asd.Usuario == usuario.Password)
+                if (query.Result.Usuario == usuario.Password)
                 {
-                    // ingresar a al menu de clima
+                    if (query.Result.Password == usuario.Password)
+                        {
+                        //logueo correcto
+                        // ingresar a al menu de clima
+                    }
+                    else
+                    {
+                        //contraseña incorrecta
+                    }
                 }
-                else
-                {
-                    //contraseña incorrecta
-                }
+              
             }
 
             
@@ -80,3 +84,4 @@ namespace Proyect.core.Services.Models
 
     }
 }
+

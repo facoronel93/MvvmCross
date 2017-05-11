@@ -941,7 +941,6 @@ F:\git\Proyect-original\Proyect.Droid\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\Newtonsoft.Json.dll
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.core.pdb
-F:\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.core.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\MvvmCross.Binding.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\MvvmCross.Localization.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
@@ -959,13 +958,14 @@ F:\git\Proyect-original\Proyect.Droid\obj\Debug\res\values\strings.xml
 F:\git\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\icon.png
 F:\git\Proyect-original\Proyect.Droid\obj\Debug\R.cs.flag
 F:\git\Proyect-original\Proyect.Droid\obj\Debug\uploadflags.txt
+F:\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb
+F:\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.core.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\Java.Interop.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\Mono.Android.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\Mono.Android.Export.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\Mono.CSharp.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\mscorlib.dll.mdb
-F:\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\System.Core.dll.mdb
 F:\git\Proyect-original\Proyect.Droid\bin\Debug\System.dll.mdb

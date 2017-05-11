@@ -155,7 +155,7 @@ namespace Proyect.core.ViewModels
         void testViewModel()
         {
           
-            ShowViewModel<RegistroViewModel>();
+            ShowViewModel<IngresarViewModel>();
 
         }
 
