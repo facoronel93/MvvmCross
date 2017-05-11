@@ -13,7 +13,7 @@ using MvvmCross.Droid.Views;
 
 namespace Proyect.Droid.Views
 {
-    [Activity(Label = "Clima", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Historial", MainLauncher = false, Icon = "@drawable/icon")]
     public class historialView : MvxActivity
     {
         public new core.ViewModels.viewModelHistorial ViewModel

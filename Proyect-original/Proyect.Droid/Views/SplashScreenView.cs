@@ -13,7 +13,7 @@ using MvvmCross.Droid.Views;
 
 namespace Proyect.Droid.Views
 {
-    [Activity(Label = "My App", MainLauncher = true, NoHistory = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Aplicacion", MainLauncher = true, NoHistory = true, Icon = "@drawable/icon")]
 
     public class SplashScreenView : MvxSplashScreenActivity
     {

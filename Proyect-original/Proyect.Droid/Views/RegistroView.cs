@@ -15,7 +15,7 @@ using MvvmCross.Core.ViewModels;
 namespace Proyect.Droid.Views
 {
 
-    [Activity(Label = "Registro De Usuarios", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Registro De Usuarios", MainLauncher = false, Icon = "@drawable/icon")]
     public class RegistroView : MvxActivity
     {
         public new core.ViewModels.RegistroViewModel ViewModel

@@ -7,7 +7,7 @@ using System.Net;
 namespace Proyect.Droid
 {
     //asd
-    [Activity(Label = "Clima", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Clima", MainLauncher = false, Icon = "@drawable/icon")]
     public class climaView : MvxActivity
     {
         public new core.ViewModels.viewModelClima ViewModel

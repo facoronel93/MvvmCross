@@ -41,6 +41,7 @@ namespace Proyect.core.Services.Models
             }
             */
         }
+       
 
 
         Persona asd = new Persona();
@@ -56,14 +57,9 @@ namespace Proyect.core.Services.Models
                    p1 => p1.Usuario == usuario.Usuario).FirstAsync();
 
             asd.Usuario = query.Result.Usuario;
-          
-            if (query.Result.Usuario != null)
-            {
-                //usuario inexistente
-            }
-            else
-            {
-                if (query.Result.Usuario == usuario.Password)
+         
+       
+                if (query.Result.Usuario == asd.Usuario)
                 {
                     if (query.Result.Password == usuario.Password)
                         {
@@ -75,12 +71,14 @@ namespace Proyect.core.Services.Models
                         //contraseña incorrecta
                     }
                 }
+               else
+                 {
+                //usuario inexistente
+                 }
               
-            }
+       }
 
-            
-        }
-        
+                
 
     }
 }
