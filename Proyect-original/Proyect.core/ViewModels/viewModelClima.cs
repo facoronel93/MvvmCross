@@ -144,6 +144,24 @@ namespace Proyect.core.ViewModels
             ShowViewModel<viewModelHistorial>(new { datos = datosSerialized });
 
         }
+
+
+        private ICommand test;
+        public ICommand Test
+        {
+            get { return this.test = this.test ?? new MvxCommand(this.testViewModel); }
+        }
+
+        void testViewModel()
+        {
+          
+            ShowViewModel<RegistroViewModel>();
+
+        }
+
+        
+
+
         Persona hola = new Persona();
         public void carga()
         {
@@ -172,7 +190,7 @@ namespace Proyect.core.ViewModels
             {
                 return new MvxCommand(() => {
                     //Task <List<DatosClima>> result = Mvx.Resolve<Repository>().GetHistorial();
-                   var result = Mvx.Resolve<Repository>().GetHistorial();
+            //       var result = Mvx.Resolve<Repository>().GetHistorial();
                   //  string datosSerialized = JsonConvert.SerializeObject(result);
                 });
             }

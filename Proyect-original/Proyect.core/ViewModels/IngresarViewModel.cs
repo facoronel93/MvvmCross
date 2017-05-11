@@ -1,5 +1,7 @@
 ﻿using MvvmCross.Core.ViewModels;
+using MvvmCross.Platform;
 using Proyect.core.Services.Models;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +13,8 @@ namespace Proyect.core.ViewModels
 {
     public class IngresarViewModel : MvxViewModel
     {
+      
+
         public override void Start()
         {
 
@@ -18,7 +22,7 @@ namespace Proyect.core.ViewModels
 
         }
 
-        public RegistroViewModel()
+        public IngresarViewModel()
         {
 
         }
@@ -48,12 +52,15 @@ namespace Proyect.core.ViewModels
         }
 
 
+        Persona respuestaDb = new Persona();
         public ICommand Ingresar
         {
             get
             {
+                
                 return new MvxCommand(() => {
-                    Mvx.Resolve<Repository>().Insert(persona).Wait();
+                    Mvx.Resolve<Repository>().GetUser(persona);
+                  //  Mvx.Resolve<Repository>().Insert(persona).Wait();
                     Close(this);
 
                 });

@@ -264,7 +264,32 @@ C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.pdb
 C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.csprojResolveAssemblyReference.cache
 C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
 C:\xamarin fede\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
-C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
-C:\xamarin fede\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
-C:\xamarin fede\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
-C:\xamarin fede\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.csprojResolveAssemblyReference.cache
+F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll
+F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.pdb
+F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.pdb
+F:\git\Proyect-original\Proyect.core\bin\Debug\MvvmCross.Core.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\MvvmCross.Platform.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\MvvmCross.Plugins.Sqlite.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\Newtonsoft.Json.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\SQLite-net.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\SQLitePCL.batteries.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\SQLitePCL.raw.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\System.Net.Http.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\System.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\System.Core.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\System.Xml.dll
+F:\git\Proyect-original\Proyect.core\bin\Debug\Newtonsoft.Json.xml
+F:\git\Proyect-original\Proyect.core\bin\Debug\SQLite-net.xml
+F:\git\Proyect-original\Proyect.core\bin\Debug\System.xml
+F:\git\Proyect-original\Proyect.core\bin\Debug\System.Core.xml
+F:\git\Proyect-original\Proyect.core\bin\Debug\System.Xml.xml
+F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\obj\Debug\Proyect.core.dll.mdb
+F:\git\Proyect-original\Proyect.core\bin\Debug\Proyect.core.dll.mdb

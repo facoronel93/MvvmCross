@@ -48,7 +48,7 @@
             android:text="historial DB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            local:MvxBind="Click GetHistorial" />
+            local:MvxBind="Click Test" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -138,5 +138,5 @@
         android:text="historial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        local:MvxBind="Click GetRecord" />
+        local:MvxBind="Click Test" />
 </LinearLayout>

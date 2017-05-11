@@ -53,12 +53,25 @@ namespace Proyect.core.ViewModels
         {
             get
             {
-                return new MvxCommand(() => {
+                return new MvxCommand(() =>
+                {
                     Mvx.Resolve<Repository>().Insert(persona).Wait();
                     Close(this);
 
                 });
             }
         }
+
+        public ICommand Login
+        {
+            get
+            {
+                return new MvxCommand(() => {
+                    ShowViewModel<IngresarViewModel>();
+                });
+            }
+        }
+
+
     }
 }

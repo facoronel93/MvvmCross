@@ -15,25 +15,20 @@ namespace Proyect.core.Services.Models
         
         public Repository(string dbPath)
         {
-          /*  var asd = new DatosClima();
-            asd.Ciudad = "fede";
-            asd.HoraConsulta = "fede";
-            asd.Humedad = "fede";
-            asd.Id = 0;
-            asd.Pais = "fede";
-            asd.Temperatura = "fede";
-            */
+            Persona hola = new Persona();
+            hola.Usuario = "fede";
+            hola.Password = "fede";
             conn = new SQLiteAsyncConnection(dbPath);
             conn.CreateTableAsync<Persona>().Wait();
-          
-          // var hola = new DatosClima();
-          //  conn.InsertAsync(asd);
+            conn.InsertAsync(hola).ConfigureAwait(continueOnCapturedContext: false);
+
         }
 
         public async Task Insert(Persona persona)
         {
 
-            var resultado = await conn.Table<Persona>().Where(x => x.Usuario == "fede").FirstOrDefaultAsync();
+            await conn.InsertAsync(persona).ConfigureAwait(continueOnCapturedContext: false);
+            /* var resultado = await conn.Table<Persona>().Where(x => x.Usuario == "fede").FirstOrDefaultAsync();
 
             if (resultado.Usuario == persona.Usuario)
             {
@@ -43,15 +38,45 @@ namespace Proyect.core.Services.Models
             {
                 await conn.InsertAsync(persona).ConfigureAwait(continueOnCapturedContext: false);
             }
-
+            */
         }
 
 
-        public Task<List<DatosClima>> GetHistorial()
+        Persona asd = new Persona();
+
+    public void GetUser(Persona usuario)
         {
-            var fede = conn.Table<DatosClima>();
-            var gola = fede.ToListAsync();
-            return gola;
+            Persona hola = new Persona();
+            hola.Usuario = "fede";
+            hola.Password = "fede";
+            conn.InsertAsync(hola).ConfigureAwait(continueOnCapturedContext: false);
+            var resultado = conn.Table<Persona>().Where(x => x.Usuario == "fede");
+            var fedde = resultado.ToListAsync();
+
+            var query = conn.Table<Persona>().Where(
+                   p1 => p1.Usuario == "fede").FirstAsync();
+
+            asd.Usuario = query.Result.Usuario;
+          
+            if (resultado == null)
+            {
+                //usuario inexistente
+            }
+            else
+            {
+                if (asd.Usuario == usuario.Password)
+                {
+                    // ingresar a al menu de clima
+                }
+                else
+                {
+                    //contraseña incorrecta
+                }
+            }
+
+            
         }
+        
+
     }
 }
