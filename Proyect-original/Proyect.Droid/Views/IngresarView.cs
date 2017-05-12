@@ -13,7 +13,8 @@ using MvvmCross.Droid.Views;
 
 namespace Proyect.Droid.Views
 {
-    [Activity(Label = "Login", MainLauncher = false, Icon = "@drawable/icon")]
+    [Activity(MainLauncher = false)]
+
     public class climaView : MvxActivity
     {
         public new core.ViewModels.IngresarViewModel ViewModel

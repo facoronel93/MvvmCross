@@ -170,10 +170,13 @@ namespace Proyect.Droid
 			public const int Lista = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Registro = 2130903044;
+			public const int Menu = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int SplashScreen = 2130903045;
+			public const int Registro = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int SplashScreen = 2130903046;
 			
 			static Layout()
 			{

@@ -1158,5 +1158,6 @@ F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.S
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\res\layout\menu.xml
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll.mdb
 F:\mvvm\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb

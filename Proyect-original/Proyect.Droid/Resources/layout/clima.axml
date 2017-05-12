@@ -39,16 +39,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             local:MvxBind="Click Go" />
-        <Button
-            android:text="Guardar en DB"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            local:MvxBind="Click GuardarDb" />
-      <Button
-            android:text="historial DB"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            local:MvxBind="Click Test" />
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
@@ -133,10 +123,9 @@
             android:gravity="left"
             local:MvxBind="Text HoraConsulta" />
     </LinearLayout>
- 
     <Button
         android:text="historial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        local:MvxBind="Click Test" />
+        local:MvxBind="Click Historial" />
 </LinearLayout>

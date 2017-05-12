@@ -20,7 +20,7 @@ namespace Proyect.core.ViewModels
         {
             
             base.Start();
-            carga();
+           
         }
 
 
@@ -117,7 +117,7 @@ namespace Proyect.core.ViewModels
         }
 
 
-
+/*
 
         private ICommand guardarClima;
         public ICommand GuardarClima
@@ -130,12 +130,12 @@ namespace Proyect.core.ViewModels
             ListaDeClima.Add(datos); 
                
         }
+        */
 
-
-        private ICommand getRecord;
-        public ICommand GetRecord
+        private ICommand historial;
+        public ICommand Historial
         {
-            get { return this.getRecord = this.getRecord ?? new MvxCommand(this.goToViewModel); }
+            get { return this.historial = this.historial ?? new MvxCommand(this.goToViewModel); }
         }
 
         void goToViewModel()
@@ -145,42 +145,7 @@ namespace Proyect.core.ViewModels
 
         }
 
-
-        private ICommand test;
-        public ICommand Test
-        {
-            get { return this.test = this.test ?? new MvxCommand(this.testViewModel); }
-        }
-
-        void testViewModel()
-        {
-          
-            ShowViewModel<IngresarViewModel>();
-
-        }
-
-        
-
-
-        Persona hola = new Persona();
-        public void carga()
-        {
-            hola.Usuario = "fede";
-            hola.Nombre = "fede";
-            hola.Email = "fede;";
-             
-        }
-
-        public ICommand GuardarDb
-        {
-            get
-            {
-                return new MvxCommand(() => {
-                 
-                      Mvx.Resolve<Repository>().Insert(hola).Wait();             
-                });
-            }
-        }
+     
 
         public List<DatosClima> AllBills { get; set; }
 

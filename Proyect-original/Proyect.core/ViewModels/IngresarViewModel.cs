@@ -75,7 +75,7 @@ namespace Proyect.core.ViewModels
 
             if (resultado == "validado")
             {          
-                ShowViewModel<viewModelClima>();
+                ShowViewModel<MenuViewModel>();
             }
             else
             {
