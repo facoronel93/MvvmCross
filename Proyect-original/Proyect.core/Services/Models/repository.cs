@@ -46,7 +46,7 @@ namespace Proyect.core.Services.Models
 
         Persona asd = new Persona();
 
-    public void GetUser(Persona usuario)
+    public string GetUser(Persona usuario)
         {
            
            /* conn.InsertAsync(hola).ConfigureAwait(continueOnCapturedContext: false);
@@ -63,16 +63,19 @@ namespace Proyect.core.Services.Models
                 {
                     if (query.Result.Password == usuario.Password)
                         {
+                    return "validado";
                         //logueo correcto
                         // ingresar a al menu de clima
                     }
                     else
                     {
-                        //contraseña incorrecta
+                    return "Incorrecto";
+                       //contraseña incorrecta
                     }
                 }
                else
                  {
+                return "inexistente";
                 //usuario inexistente
                  }
               

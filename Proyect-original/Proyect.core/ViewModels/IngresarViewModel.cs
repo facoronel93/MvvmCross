@@ -21,10 +21,10 @@ namespace Proyect.core.ViewModels
             base.Start();
 
         }
-
-        public IngresarViewModel()
+        private readonly Repository conn;
+        public IngresarViewModel(Repository repo)
         {
-
+            conn = repo;
         }
 
         Persona persona = new Persona();
@@ -59,13 +59,37 @@ namespace Proyect.core.ViewModels
             {
                 
                 return new MvxCommand(() => {
-                    Mvx.Resolve<Repository>().GetUser(persona);
+                    verificarUsuario();
+                   // Mvx.Resolve<Repository>().GetUser(persona);
                   //  Mvx.Resolve<Repository>().Insert(persona).Wait();
                     Close(this);
 
                 });
             }
         }
+      
+        
+        private void verificarUsuario()
+        {
+           var resultado = conn.GetUser(persona);
+
+            if (resultado == "validado")
+            {          
+                ShowViewModel<viewModelClima>();
+            }
+            else
+            {
+                if (resultado == "incorrecto")
+                {
+                    // mostrar contraseña incorrecta
+                }
+                else
+                {
+                    //usuario inexistente
+                }
+            }
+        }
+
 
         public ICommand Registrar
         {
