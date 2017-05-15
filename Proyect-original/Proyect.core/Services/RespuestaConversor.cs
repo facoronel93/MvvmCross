@@ -8,6 +8,8 @@ namespace Proyect.core.Services.Models
 {
     public class RespuestaConversor
     {
-        public string valor { get; set; }
+        public string usd { get; set; }
+        public string eur { get; set; }
+        public string ars { get; set; }
     }
 }

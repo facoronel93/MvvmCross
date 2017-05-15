@@ -75,13 +75,32 @@ namespace Proyect.core.ViewModels
 
         private async Task getValue()
         {
-
-            var url = new Uri($"https://www.google.com/finance/converter?a={Valor}&from={MonedaOrigen}&to={MonedaDestino}"); 
+        
+            var url = new Uri($"http://devel.farebookings.com/api/curconversor/{MonedaOrigen}/{MonedaDestino}/{Valor}/json"); 
             var httpClient = new HttpClient();
             var result = await httpClient.GetStringAsync(url);
             httpClient.Dispose();
             RespuestaConversor json = JsonConvert.DeserializeObject<RespuestaConversor>(result);
-            var fede = 0;
+            
+            if(json.usd != null)
+            {
+                this.NuevoValor = json.usd;
+            }
+            else
+            {
+                if (json.eur != null)
+                {
+                    this.NuevoValor = json.eur;
+                }
+                else
+                {
+                    if (json.ars != null)
+                    {
+                        this.NuevoValor = json.ars;
+                    }
+                }
+
+            }
 
         }
 
