@@ -1159,5 +1159,6 @@ F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ServiceMo
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\res\layout\menu.xml
+F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\res\layout\conversor.xml
 F:\mvvm\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll.mdb
 F:\mvvm\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb

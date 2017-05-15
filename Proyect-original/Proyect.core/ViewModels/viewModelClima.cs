@@ -145,22 +145,6 @@ namespace Proyect.core.ViewModels
 
         }
 
-     
-
-        public List<DatosClima> AllBills { get; set; }
-
-        public ICommand GetHistorial
-        {
-            get
-            {
-                return new MvxCommand(() => {
-                    //Task <List<DatosClima>> result = Mvx.Resolve<Repository>().GetHistorial();
-            //       var result = Mvx.Resolve<Repository>().GetHistorial();
-                  //  string datosSerialized = JsonConvert.SerializeObject(result);
-                });
-            }
-        }
-
       
 
 

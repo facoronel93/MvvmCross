@@ -21,5 +21,16 @@ namespace Proyect.core.ViewModels
                 });
             }
         }
+
+        public ICommand Convertir
+        {
+            get
+            {
+
+                return new MvxCommand(() => {
+                    ShowViewModel<ConversorViewModel>();
+                });
+            }
+        }
     }
 }

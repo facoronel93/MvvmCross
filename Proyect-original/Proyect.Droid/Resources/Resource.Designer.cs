@@ -161,22 +161,25 @@ namespace Proyect.Droid
 			public const int clima = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int historial = 2130903041;
+			public const int Conversor = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Ingresar = 2130903042;
+			public const int historial = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Lista = 2130903043;
+			public const int Ingresar = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Menu = 2130903044;
+			public const int Lista = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Registro = 2130903045;
+			public const int Menu = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int SplashScreen = 2130903046;
+			public const int Registro = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int SplashScreen = 2130903047;
 			
 			static Layout()
 			{

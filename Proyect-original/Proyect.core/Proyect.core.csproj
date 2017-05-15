@@ -40,9 +40,11 @@
     <Compile Include="Services\Models\DatosClima.cs" />
     <Compile Include="Services\Models\Persona.cs" />
     <Compile Include="Services\Models\repository.cs" />
+    <Compile Include="Services\RespuestaConversor.cs" />
     <Compile Include="Services\RespuestaCurrent.cs" />
     <Compile Include="Services\RespuestaLocation.cs" />
     <Compile Include="Services\RespuestaTiempo.cs" />
+    <Compile Include="ViewModels\ConversorViewModel.cs" />
     <Compile Include="ViewModels\IngresarViewModel.cs" />
     <Compile Include="ViewModels\MenuViewModel.cs" />
     <Compile Include="ViewModels\viewModelClima.cs" />

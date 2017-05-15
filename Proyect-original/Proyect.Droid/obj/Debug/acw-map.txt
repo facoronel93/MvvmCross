@@ -2,6 +2,10 @@ Proyect.Droid.climaView, Proyect.Droid;md5d2b99979f632ebc8511266eb02403f08.clima
 Proyect.Droid.climaView, Proyect.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d2b99979f632ebc8511266eb02403f08.climaView
 Proyect.Droid.climaView;md5d2b99979f632ebc8511266eb02403f08.climaView
 proyect.droid.climaView;md5d2b99979f632ebc8511266eb02403f08.climaView
+Proyect.Droid.Views.ConversorView, Proyect.Droid;md505b6399a24b8802c55ae53155e40e74b.ConversorView
+Proyect.Droid.Views.ConversorView, Proyect.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505b6399a24b8802c55ae53155e40e74b.ConversorView
+Proyect.Droid.Views.ConversorView;md505b6399a24b8802c55ae53155e40e74b.ConversorView
+proyect.droid.views.ConversorView;md505b6399a24b8802c55ae53155e40e74b.ConversorView
 Proyect.Droid.Views.historialView, Proyect.Droid;md505b6399a24b8802c55ae53155e40e74b.historialView
 Proyect.Droid.Views.historialView, Proyect.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505b6399a24b8802c55ae53155e40e74b.historialView
 Proyect.Droid.Views.historialView;md505b6399a24b8802c55ae53155e40e74b.historialView
