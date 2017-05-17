@@ -1205,6 +1205,7 @@ D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\res\values\strings.xml
 D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\icon.png
 D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\R.cs.flag
 D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\uploadflags.txt
+D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\res\values\color.xml
 D:\fede\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb
 D:\fede\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.core.dll.mdb
 D:\fede\git\Proyect-original\Proyect.Droid\bin\Debug\Java.Interop.dll.mdb
@@ -1243,5 +1244,7 @@ D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runti
 D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\buttonshape.xml
+D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\btn_ingresar.xml
 D:\fede\git\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll.mdb
 D:\fede\git\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb

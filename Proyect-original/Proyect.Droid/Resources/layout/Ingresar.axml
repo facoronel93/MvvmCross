@@ -3,31 +3,77 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/blanco"> 
+  
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/getSection">
+  
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Nombre De Usuario" />
+      android:textColor="@color/black"
+      android:text="Nombre De Usuario"/>
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:textColor="@color/black"
       local:MvxBind="Text Usuario" />
+   
   <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Contraseña" />
+      android:textColor="@color/black"
+      android:text="Contraseña"/>
   <EditText
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:textColor="@color/black"
       local:MvxBind="Text Password" />
+</LinearLayout>    
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/getSection">
   <Button
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
+      android:textColor="@color/blanco" 
+      android:radius="50dp"
       android:text="Ingresar"
+      android:background="@drawable/btn_ingresar" 
       local:MvxBind="Click Ingresar" />
+  
+</LinearLayout>  
+
+  <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getSection">
   <Button
+    
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="Registrate"
-    local:MvxBind="Click Registrar" />
-</LinearLayout>
+    android:text="Crear Cuenta"
+    android:textColor="@color/primaryDark" 
+    android:background="@drawable/buttonshape" 
+    local:MvxBind="Click Registrar"
+   />
+
+</LinearLayout>  
+
+
+  </LinearLayout>
