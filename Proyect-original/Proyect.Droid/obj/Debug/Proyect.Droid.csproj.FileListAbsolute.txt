@@ -1338,5 +1338,6 @@ C:\Users\sistemas.NB01AGRARIA\Music\nuevo\Proyect-original\Proyect.Droid\obj\Deb
 C:\Users\sistemas.NB01AGRARIA\Music\nuevo\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\splashscreen.png
 C:\Users\sistemas.NB01AGRARIA\Music\nuevo\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\splash2.png
 C:\Users\sistemas.NB01AGRARIA\Music\nuevo\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\splash3.png
+C:\Users\sistemas.NB01AGRARIA\Music\nuevo\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\colortext.xml
 C:\Users\sistemas.NB01AGRARIA\Music\nuevo\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll.mdb
 C:\Users\sistemas.NB01AGRARIA\Music\nuevo\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb

@@ -27,6 +27,7 @@ namespace Proyect.Droid.Views
         protected override void OnViewModelSet()
         {
             base.OnViewModelSet();
+            RequestWindowFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.Registro);
 
         }

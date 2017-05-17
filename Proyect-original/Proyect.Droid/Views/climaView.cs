@@ -1,4 +1,5 @@
 ﻿using Android.App;
+using Android.Views;
 using Android.Widget;
 using MvvmCross.Droid.Views;
 using Proyect.core.ViewModels;
@@ -19,6 +20,7 @@ namespace Proyect.Droid
         protected override void OnViewModelSet()
         {
             base.OnViewModelSet();
+            RequestWindowFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.clima);
       
         }

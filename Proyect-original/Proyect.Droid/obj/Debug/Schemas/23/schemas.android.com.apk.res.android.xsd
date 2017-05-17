@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" elementFormDefault="unqualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>17/5/2017 12:21:18 p. m.</xs:documentation>
+    <xs:documentation>17/5/2017 1:25:17 p. m.</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -810,6 +810,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -1461,6 +1462,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -2173,6 +2175,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -2564,6 +2567,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -2884,6 +2888,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -3525,6 +3530,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -3849,6 +3855,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -4189,6 +4196,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -4472,6 +4480,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -4732,6 +4741,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -5310,6 +5320,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -5756,6 +5767,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -6157,6 +6169,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -6613,6 +6626,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -6944,6 +6958,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -7275,6 +7290,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -7646,6 +7662,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -7977,6 +7994,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -8429,6 +8447,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -8805,6 +8824,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -9100,6 +9120,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -9542,6 +9563,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -9958,6 +9980,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -10492,6 +10515,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -10975,6 +10999,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -11428,6 +11453,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -12057,6 +12083,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -12299,6 +12326,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -12541,6 +12569,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -12783,6 +12812,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -13025,6 +13055,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -13267,6 +13298,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -13509,6 +13541,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -13751,6 +13784,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -14198,6 +14232,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -14467,6 +14502,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -14709,6 +14745,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -14951,6 +14988,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -15193,6 +15231,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -15475,6 +15514,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -15728,6 +15768,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -16048,6 +16089,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -16330,6 +16372,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -16674,6 +16717,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -16916,6 +16960,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -17466,6 +17511,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -17818,6 +17864,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -18155,6 +18202,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -18736,6 +18784,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -19064,6 +19113,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -19466,6 +19516,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -19828,6 +19879,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -20086,6 +20138,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -20665,6 +20718,18 @@
       </xs:union>
     </xs:simpleType>
   </xs:attribute>
+  <xs:attribute name="layout_weight">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string" />
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
   <xs:attribute name="layout_width">
     <xs:annotation>
       <xs:documentation>Specifies the basic width of the view. This is a required attribute for any view inside of a containing layout manager. Its value may be a dimension (such as "12dip") for a constant width or one of the special constants.</xs:documentation>
@@ -20777,6 +20842,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -21152,6 +21218,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -22150,6 +22217,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -22404,6 +22472,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -22687,6 +22756,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -22969,6 +23039,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -23211,6 +23282,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -23453,6 +23525,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -23695,6 +23768,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -23937,6 +24011,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -24696,6 +24771,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -24966,6 +25042,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -25297,6 +25374,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -26021,6 +26099,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -26381,6 +26460,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -26815,6 +26895,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -27178,6 +27259,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -27420,6 +27502,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -28217,6 +28300,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -28459,6 +28543,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -28701,6 +28786,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -28943,6 +29029,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -29365,6 +29452,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -29607,6 +29695,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -30028,6 +30117,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -30281,6 +30371,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -30601,6 +30692,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -31308,6 +31400,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -31854,6 +31947,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -32232,6 +32326,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -33425,6 +33520,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -33708,6 +33804,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -34052,6 +34149,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -34374,6 +34472,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -34616,6 +34715,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -34898,6 +34998,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -35140,6 +35241,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -35529,6 +35631,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -35782,6 +35885,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -36113,6 +36217,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -36444,6 +36549,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -36775,6 +36881,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -37095,6 +37202,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -37363,6 +37471,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -37605,6 +37714,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -37847,6 +37957,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -38089,6 +38200,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -38331,6 +38443,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -38747,6 +38860,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -38989,6 +39103,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -39231,6 +39346,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -40410,6 +40526,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -41264,6 +41381,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -41688,6 +41806,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -42478,6 +42597,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -42946,6 +43066,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -43204,6 +43325,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -43446,6 +43568,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -43699,6 +43822,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -44030,6 +44154,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -44402,6 +44527,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
@@ -44644,6 +44770,7 @@
             <xs:enumeration value="@drawable/browser" />
             <xs:enumeration value="@drawable/btn_ingresar" />
             <xs:enumeration value="@drawable/buttonshape" />
+            <xs:enumeration value="@drawable/colortext" />
             <xs:enumeration value="@drawable/icon" />
             <xs:enumeration value="@drawable/images" />
             <xs:enumeration value="@drawable/splash2" />
