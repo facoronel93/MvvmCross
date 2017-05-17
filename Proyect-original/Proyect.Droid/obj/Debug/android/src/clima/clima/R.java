@@ -88,6 +88,9 @@ containing a value of this type.
         public static final int buttonshape=0x7f020003;
         public static final int icon=0x7f020004;
         public static final int images=0x7f020005;
+        public static final int splash2=0x7f020006;
+        public static final int splash3=0x7f020007;
+        public static final int splashscreen=0x7f020008;
     }
     public static final class id {
         public static final int Ciudad=0x7f040004;

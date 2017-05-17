@@ -150,6 +150,15 @@ namespace Proyect.Droid
 			// aapt resource value: 0x7f020005
 			public const int images = 2130837509;
 			
+			// aapt resource value: 0x7f020006
+			public const int splash2 = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int splash3 = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int splashscreen = 2130837512;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
