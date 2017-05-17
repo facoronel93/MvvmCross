@@ -15,7 +15,7 @@ namespace Proyect.Droid.Views
 {
     [Activity(MainLauncher = false)]
 
-    public class climaView : MvxActivity
+    public class IngresarView : MvxActivity
     {
         public new core.ViewModels.IngresarViewModel ViewModel
         {
@@ -26,6 +26,7 @@ namespace Proyect.Droid.Views
         protected override void OnViewModelSet()
         {
             base.OnViewModelSet();
+            RequestWindowFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.Ingresar);
 
         }

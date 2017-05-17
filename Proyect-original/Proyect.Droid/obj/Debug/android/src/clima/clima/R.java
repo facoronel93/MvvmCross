@@ -82,14 +82,18 @@ containing a value of this type.
         public static final int textIcon=0x7f050004;
     }
     public static final class drawable {
-        public static final int btn_ingresar=0x7f020000;
-        public static final int buttonshape=0x7f020001;
-        public static final int icon=0x7f020002;
+        public static final int android=0x7f020000;
+        public static final int browser=0x7f020001;
+        public static final int btn_ingresar=0x7f020002;
+        public static final int buttonshape=0x7f020003;
+        public static final int icon=0x7f020004;
+        public static final int images=0x7f020005;
     }
     public static final class id {
         public static final int Ciudad=0x7f040004;
         public static final int MvvmCrossTagId=0x7f040000;
         public static final int MvxBindingTagUnique=0x7f040001;
+        public static final int Portada=0x7f04000e;
         public static final int condLabel=0x7f04000d;
         public static final int condSection=0x7f04000c;
         public static final int getSection=0x7f040005;
