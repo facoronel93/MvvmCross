@@ -87,11 +87,13 @@ containing a value of this type.
         public static final int btn_ingresar=0x7f020002;
         public static final int buttonshape=0x7f020003;
         public static final int colortext=0x7f020004;
-        public static final int icon=0x7f020005;
-        public static final int images=0x7f020006;
-        public static final int splash2=0x7f020007;
-        public static final int splash3=0x7f020008;
-        public static final int splashscreen=0x7f020009;
+        public static final int conversor=0x7f020005;
+        public static final int icon=0x7f020006;
+        public static final int images=0x7f020007;
+        public static final int splash2=0x7f020008;
+        public static final int splash3=0x7f020009;
+        public static final int splashscreen=0x7f02000a;
+        public static final int weather=0x7f02000b;
     }
     public static final class id {
         public static final int Ciudad=0x7f040004;
@@ -103,6 +105,7 @@ containing a value of this type.
         public static final int getSection=0x7f040005;
         public static final int humidLabel=0x7f04000b;
         public static final int humidSection=0x7f04000a;
+        public static final int imageButton1=0x7f04000f;
         public static final int latSection=0x7f040002;
         public static final int locLabel=0x7f040007;
         public static final int locSection=0x7f040006;

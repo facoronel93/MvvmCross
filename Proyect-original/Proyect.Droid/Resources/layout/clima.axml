@@ -3,15 +3,17 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="@color/blanco">
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:id="@+id/latSection">
         <TextView
+            android:textColor="@color/black"
             android:text="Ingrese Ciudad"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="140dp"
@@ -19,6 +21,7 @@
             android:gravity="right"
             android:id="@+id/longLabel" />
         <EditText
+            android:textColor="@color/black"
             android:text="rosario"
             android:layout_width="150dp"
             android:layout_height="50dp"
@@ -29,12 +32,18 @@
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
-        android:layout_marginTop="28dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:id="@+id/getSection">
         <Button
+            android:textColor="@color/blanco"
+            android:background="@drawable/btn_ingresar"
             android:text="Obtener Clima"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,6 +58,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/locSection">
         <TextView
+            android:textColor="@color/black"
             android:text="Pais:"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="120dp"
@@ -56,6 +66,7 @@
             android:gravity="left"
             android:id="@+id/locLabel" />
         <TextView
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             local:MvxBind="Text Pais" />
@@ -69,6 +80,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/tempSection">
         <TextView
+            android:textColor="@color/black"
             android:text="Temperatura:"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="120dp"
@@ -76,6 +88,7 @@
             android:gravity="left"
             android:id="@+id/tempLabel" />
         <TextView
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:gravity="left"
@@ -90,6 +103,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/humidSection">
         <TextView
+            android:textColor="@color/black"
             android:text="Humedad:"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="120dp"
@@ -97,6 +111,7 @@
             android:gravity="left"
             android:id="@+id/humidLabel" />
         <TextView
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:gravity="left"
@@ -111,6 +126,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/condSection">
         <TextView
+            android:textColor="@color/black"
             android:text="Fecha - Hora "
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="130dp"
@@ -118,14 +134,29 @@
             android:gravity="left"
             android:id="@+id/condLabel" />
         <TextView
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="40dp"
             android:gravity="left"
             local:MvxBind="Text HoraConsulta" />
     </LinearLayout>
+   <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/getSection">
     <Button
+        android:textColor="@color/blanco"
+        android:background="@drawable/btn_ingresar"
         android:text="historial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         local:MvxBind="Click Historial" />
+  </LinearLayout>
 </LinearLayout>

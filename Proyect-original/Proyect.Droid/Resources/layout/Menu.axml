@@ -4,23 +4,36 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@android:color/white">
+    android:background="@color/blanco">
     <Button
         android:text="Api Clima"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         local:MvxBind="Click Clima" />
   <LinearLayout
-    android:orientation="vertical"
     android:layout_marginTop="28dp"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:gravity="center_horizontal"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal"
     android:id="@+id/getSection">
-    <Button
-        android:text="Conversor"
-        android:layout_width="match_parent"
+ <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        local:MvxBind="Click Convertir" />
+        android:src="@drawable/weather" 
+        android:background="@color/blanco"/>
+     <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/conversor"
+        android:background="@color/blanco"/>
   </LinearLayout>
+
+  <Button
+    android:text="Conversor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    local:MvxBind="Click Convertir" />
 </LinearLayout>
