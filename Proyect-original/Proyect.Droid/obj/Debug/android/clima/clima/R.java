@@ -67,19 +67,19 @@ containing a value of this type.
         public static final int MvxTemplate=0x7f010002;
     }
     public static final class color {
-        public static final int accent=0x7f060002;
-        public static final int activated_color=0x7f060008;
-        public static final int black=0x7f06000a;
-        public static final int blanco=0x7f060009;
-        public static final int divider=0x7f060007;
-        public static final int lightPrimary=0x7f060003;
+        public static final int accent=0x7f050002;
+        public static final int activated_color=0x7f050008;
+        public static final int black=0x7f05000a;
+        public static final int blanco=0x7f050009;
+        public static final int divider=0x7f050007;
+        public static final int lightPrimary=0x7f050003;
         /** Get colors from: http://www.materialpalette.com/
          */
-        public static final int primary=0x7f060000;
-        public static final int primaryDark=0x7f060001;
-        public static final int primaryText=0x7f060005;
-        public static final int secondaryText=0x7f060006;
-        public static final int textIcon=0x7f060004;
+        public static final int primary=0x7f050000;
+        public static final int primaryDark=0x7f050001;
+        public static final int primaryText=0x7f050005;
+        public static final int secondaryText=0x7f050006;
+        public static final int textIcon=0x7f050004;
     }
     public static final class drawable {
         public static final int android=0x7f020000;
@@ -124,9 +124,8 @@ containing a value of this type.
         public static final int splashscreen=0x7f030007;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f050002;
-        public static final int Hello=0x7f050001;
-        public static final int library_name=0x7f050000;
+        public static final int ApplicationName=0x7f060001;
+        public static final int Hello=0x7f060000;
     }
     public static final class styleable {
         /** Attributes that can be used with a MvxBinding.
