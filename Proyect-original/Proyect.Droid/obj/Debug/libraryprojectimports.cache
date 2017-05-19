@@ -2,6 +2,7 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\Chance.MvvmCross.Plugins.UserInteraction.Droid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\res</ResolvedResourceDirectory>
@@ -14,6 +15,7 @@
     <ResolvedResourceDirectory>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Chance.MvvmCross.Plugins.UserInteraction.Droid\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Binding.Droid\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Droid\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\MvvmCross.Droid.Shared\library_project_imports\assets</ResolvedAssetDirectory>
@@ -27,6 +29,7 @@
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\Chance.MvvmCross.Plugins.UserInteraction.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\MvvmCross.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\__library_projects__\MvvmCross.Droid.Shared.stamp</ResolvedResourceDirectoryStamp>

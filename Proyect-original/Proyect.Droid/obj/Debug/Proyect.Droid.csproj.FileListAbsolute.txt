@@ -1435,4 +1435,3 @@ D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Ser
 D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll.mdb
-D:\fede\nuevo\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb

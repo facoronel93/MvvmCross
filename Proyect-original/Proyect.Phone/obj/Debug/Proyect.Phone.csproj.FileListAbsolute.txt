@@ -25,3 +25,11 @@ C:\Users\sistemas.NB01AGRARIA\Desktop\fede\Proyect\Proyect.Phone\obj\Debug\Proye
 C:\Users\sistemas.NB01AGRARIA\Desktop\fede\Proyect\Proyect.Phone\obj\Debug\Proyect.Phone.csproj.GenerateResource.Cache
 C:\Users\sistemas.NB01AGRARIA\Desktop\fede\Proyect\Proyect.Phone\obj\Debug\Proyect.Phone.dll
 C:\Users\sistemas.NB01AGRARIA\Desktop\fede\Proyect\Proyect.Phone\obj\Debug\Proyect.Phone.pdb
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.csprojResolveAssemblyReference.cache
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\App.g.cs
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\MainPage.g.cs
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.g.resources
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.Resources.AppResources.resources
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.csproj.GenerateResource.Cache
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.dll
+D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.pdb
