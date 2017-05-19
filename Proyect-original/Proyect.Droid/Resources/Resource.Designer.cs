@@ -261,10 +261,16 @@ namespace Proyect.Droid
 			public const int Menu = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Registro = 2130903046;
+			public const int MvxDropDownItemTemplate = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int SplashScreen = 2130903047;
+			public const int MvxItemTemplate = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int Registro = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int SplashScreen = 2130903049;
 			
 			static Layout()
 			{

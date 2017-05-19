@@ -1435,6 +1435,7 @@ D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Ser
 D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 D:\fede\nuevo\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll.mdb
+C:\final\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.csprojResolveAssemblyReference.cache
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.pdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Clima.Clima.apk
@@ -1457,14 +1458,12 @@ C:\final\Proyect-original\Proyect.Droid\bin\Debug\SQLitePCLRaw.lib.e_sqlite3.dll
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Newtonsoft.Json.dll
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Proyect.core.pdb
-C:\final\Proyect-original\Proyect.Droid\bin\Debug\Proyect.core.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\MvvmCross.Binding.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\MvvmCross.Localization.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\MvvmCross.Platform.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\SQLite-net.xml
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\SQLite-net.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Newtonsoft.Json.xml
-C:\final\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.csprojResolveAssemblyReference.cache
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.pdb
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\android\bin\Clima.Clima.apk
@@ -1475,6 +1474,8 @@ C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\layout\registro.xml
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\layout\ingresar.xml
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\layout\menu.xml
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\layout\conversor.xml
+C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\layout\mvxitemtemplate.xml
+C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\layout\mvxdropdownitemtemplate.xml
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\layout\clima.xml
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\values\strings.xml
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\icon.png
@@ -1492,13 +1493,14 @@ C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\weather.png
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\res\drawable\conversor.png
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\R.cs.flag
 C:\final\Proyect-original\Proyect.Droid\obj\Debug\uploadflags.txt
+C:\final\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb
+C:\final\Proyect-original\Proyect.Droid\bin\Debug\Proyect.core.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Microsoft.CSharp.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Mono.Android.Export.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\Mono.CSharp.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\mscorlib.dll.mdb
-C:\final\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\System.Core.dll.mdb
 C:\final\Proyect-original\Proyect.Droid\bin\Debug\System.dll.mdb

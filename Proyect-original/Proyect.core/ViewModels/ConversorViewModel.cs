@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Proyect.core.Services.Models;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -13,14 +14,26 @@ namespace Proyect.core.ViewModels
 {
    public class ConversorViewModel : MvxViewModel
     {
+        public ObservableCollection<RespuestaConversor> Opciones;
 
         public override void Start()
         {
+            var Opciones = new ObservableCollection<RespuestaConversor>();
 
+            var fede = new RespuestaConversor();
+            fede.usd = "10";
+            Opciones.Add(fede);
             base.Start();
+          
+    }
+      void hola()
+        {
+            var Opciones = new ObservableCollection<RespuestaConversor>();
 
+            var fede = new RespuestaConversor();
+            fede.usd = "10";
+            Opciones.Add(fede);
         }
-
 
         private string monedaOrigen;
         public string MonedaOrigen
@@ -80,8 +93,7 @@ namespace Proyect.core.ViewModels
             var httpClient = new HttpClient();
             var result = await httpClient.GetStringAsync(url);
             httpClient.Dispose();
-            RespuestaConversor json = JsonConvert.DeserializeObject<RespuestaConversor>(result);
-            
+            RespuestaConversor json = JsonConvert.DeserializeObject<RespuestaConversor>(result);       
             if(json.usd != null)
             {
                 this.NuevoValor = json.usd;
@@ -100,11 +112,14 @@ namespace Proyect.core.ViewModels
                     }
                 }
 
-            }
-
+            }       
         }
+        
+     
 
+        
+     
 
-    }
+}
 }
 
