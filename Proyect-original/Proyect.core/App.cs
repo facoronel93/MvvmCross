@@ -25,7 +25,7 @@ namespace Proyect.core
              {
                  public void Start(object hint = null)
                  {
-                this.ShowViewModel<ConversorViewModel>();
+                this.ShowViewModel<IngresarViewModel>();
                  }
              }
 

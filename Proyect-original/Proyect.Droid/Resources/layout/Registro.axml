@@ -28,7 +28,9 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Usuario" />
-        <EditText
+      <EditText
+            android:textColorHint="@color/primaryDark"
+            android:textColorHighlight="#c4ff82"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -39,6 +41,8 @@
             android:layout_height="wrap_content"
             android:text="Contraseña" />
         <EditText
+            android:textColorHint="@color/primaryDark"
+            android:textColorHighlight="#c4ff82"
             android:layout_width="match_parent"
             android:textColor="@color/black"
             android:layout_height="wrap_content"
@@ -48,7 +52,9 @@
             android:textColor="@color/black"
             android:layout_height="wrap_content"
             android:text="Nombre" />
-        <EditText
+      <EditText
+            android:textColorHint="@color/primaryDark"
+            android:textColorHighlight="#c4ff82"
             android:layout_width="match_parent"
             android:textColor="@color/black"
             android:layout_height="wrap_content"
