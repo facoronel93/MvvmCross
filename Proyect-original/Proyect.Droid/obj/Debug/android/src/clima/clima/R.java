@@ -118,10 +118,10 @@ containing a value of this type.
         public static final int conversor=0x7f030001;
         public static final int historial=0x7f030002;
         public static final int ingresar=0x7f030003;
-        public static final int lista=0x7f030004;
-        public static final int menu=0x7f030005;
-        public static final int mvxdropdownitemtemplate=0x7f030006;
-        public static final int mvxitemtemplate=0x7f030007;
+        public static final int item_simplespinner=0x7f030004;
+        public static final int item_simplespinnerdropdown=0x7f030005;
+        public static final int lista=0x7f030006;
+        public static final int menu=0x7f030007;
         public static final int registro=0x7f030008;
         public static final int splashscreen=0x7f030009;
     }

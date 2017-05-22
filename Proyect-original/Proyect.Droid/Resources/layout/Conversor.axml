@@ -6,37 +6,32 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/blanco">
-  <MvxSpinner
-       android:layout_width="fill_parent"
-       android:layout_height="wrap_content"
-       android:textSize="40dp"
-       local:MvxBind="ItemsSource Opciones;SelectedItem usd" />
-  
   <LinearLayout
       android:orientation="horizontal"
-      android:layout_marginTop="10dp"
+      android:layout_marginTop="30dp"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:gravity="center_horizontal"
       android:id="@+id/latSection">
-    <TextView
+
+    <TextView 
         android:textColor="@color/black"
-        android:text="Ingrese Origen"
+        android:text="Ingrese Origen  "
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:gravity="right"
         android:id="@+id/longLabel" />
     
-    <EditText
-        android:textColor="@color/black"
-        android:text=""
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:id="@+id/Ciudad"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginLeft="5dp"
-        local:MvxBind="Text MonedaOrigen" />
+     <MvxSpinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:textSize="120dp"
+       android:textColor="@color/primaryDark"
+       app:MvxItemTemplate="@layout/item_simplespinner"
+       app:MvxDropDownItemTemplate="@layout/item_simplespinnerdropdown"
+       app:MvxBind="ItemsSource Opciones;SelectedItem MonedaOrigen" />
   </LinearLayout>
   
   <LinearLayout
@@ -48,21 +43,21 @@
       android:id="@+id/latSection">
     <TextView
         android:textColor="@color/black"
-        android:text="Ingrese Destino"
+        android:text="Ingrese Destino "
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="140dp"
         android:layout_height="40dp"
         android:gravity="right"
         android:id="@+id/longLabel" />
-    <EditText
-        android:textColor="@color/black"
-        android:text=""
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:id="@+id/Ciudad"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_marginLeft="5dp"
-        local:MvxBind="Text MonedaDestino" />
+     <MvxSpinner
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:textSize="120dp"
+       android:textColor="@color/primaryDark"
+       app:MvxItemTemplate="@layout/item_simplespinner"
+       app:MvxDropDownItemTemplate="@layout/item_simplespinnerdropdown"
+       app:MvxBind="ItemsSource Opciones;SelectedItem MonedaDestino" />
   </LinearLayout>
   <LinearLayout
       android:orientation="horizontal"

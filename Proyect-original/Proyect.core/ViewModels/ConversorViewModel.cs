@@ -1,5 +1,6 @@
 ﻿using MvvmCross.Core.ViewModels;
 using Newtonsoft.Json;
+using Proyect.core.Services;
 using Proyect.core.Services.Models;
 using System;
 using System.Collections.Generic;
@@ -14,26 +15,35 @@ namespace Proyect.core.ViewModels
 {
    public class ConversorViewModel : MvxViewModel
     {
-        public ObservableCollection<RespuestaConversor> Opciones;
+        
+       private ObservableCollection<Currency> opciones;
+
+        public ObservableCollection<Currency> Opciones
+        {
+            get { return opciones; }
+            set
+            {
+                opciones = value;
+                this.RaisePropertyChanged(() => this.Opciones);
+            }
+        }
+        
+        public ConversorViewModel()
+        {
+            Opciones = new ObservableCollection<Currency>()
+            {
+                 new Currency("USD"),
+                 new Currency("EUR"),
+                 new Currency("ARS"),
+            };
+        }
 
         public override void Start()
         {
-            var Opciones = new ObservableCollection<RespuestaConversor>();
-
-            var fede = new RespuestaConversor();
-            fede.usd = "10";
-            Opciones.Add(fede);
             base.Start();
           
     }
-      void hola()
-        {
-            var Opciones = new ObservableCollection<RespuestaConversor>();
-
-            var fede = new RespuestaConversor();
-            fede.usd = "10";
-            Opciones.Add(fede);
-        }
+     
 
         private string monedaOrigen;
         public string MonedaOrigen
@@ -67,8 +77,6 @@ namespace Proyect.core.ViewModels
                 this.RaisePropertyChanged(() => this.Valor);
             }
         }
-
-
 
         private string nuevoValor;
         public string NuevoValor

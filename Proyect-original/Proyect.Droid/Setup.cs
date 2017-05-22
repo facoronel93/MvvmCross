@@ -14,19 +14,20 @@ using MvvmCross.Droid.Platform;
 using Proyect.core;
 using MvvmCross.Platform;
 using Proyect.core.Services.Models;
+using MvvmCross.Binding.Bindings.Target.Construction;
 
 namespace Proyect.Droid
 {
 
     public class Setup : MvxAndroidSetup
     {
+        
+
         public Setup(Context applicationContext) : base(applicationContext)
         {
            
         }
-
-
-  
+   
         protected override IMvxApplication CreateApp()
         {
             var dbConn = FileAccessHelper.GetLocalFilePath("Personas.db3");
