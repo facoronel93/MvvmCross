@@ -20,7 +20,7 @@ namespace Proyect.core
 
             }
             
-            
+            //
             public class CustomStart : MvxNavigatingObject, IMvxAppStart
              {
                  public void Start(object hint = null)
