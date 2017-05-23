@@ -37,6 +37,7 @@
     <Compile Include="App.cs" />
     <Compile Include="CustomAppStart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Converters\CurrencyValueConverter .cs" />
     <Compile Include="Services\Currency.cs" />
     <Compile Include="Services\Models\DatosClima.cs" />
     <Compile Include="Services\Models\Persona.cs" />

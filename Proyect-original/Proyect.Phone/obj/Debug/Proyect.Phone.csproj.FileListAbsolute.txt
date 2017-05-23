@@ -33,3 +33,9 @@ D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.Resources.A
 D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.csproj.GenerateResource.Cache
 D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.dll
 D:\fede\nuevo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.pdb
+C:\desarrollo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.csprojResolveAssemblyReference.cache
+C:\desarrollo\Proyect-original\Proyect.Phone\obj\Debug\App.g.cs
+C:\desarrollo\Proyect-original\Proyect.Phone\obj\Debug\MainPage.g.cs
+C:\desarrollo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.g.resources
+C:\desarrollo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.dll
+C:\desarrollo\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.pdb
