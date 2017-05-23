@@ -21,6 +21,8 @@
             android:gravity="right"
             android:id="@+id/longLabel" />
         <EditText
+            android:background="@drawable/EditText"
+            android:singleLine="true"
             android:textColor="@color/black"
             android:text="rosario"
             android:layout_width="150dp"

@@ -4,36 +4,33 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@color/blanco">
-    <Button
-        android:text="Api Clima"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        local:MvxBind="Click Clima" />
+     android:background="@color/blanco">
+  <LinearLayout
+  android:layout_marginTop="28dp"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal"
+  android:id="@+id/getSection">
+  <Button
+      android:text="Api Clima"
+      android:background="#c4ff82"
+      android:textColor="#5fad0a"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      local:MvxBind="Click Clima" />
+  </LinearLayout>
   <LinearLayout
     android:layout_marginTop="28dp"
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="horizontal"
     android:id="@+id/getSection">
- <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/weather" 
-        android:background="@color/blanco"/>
-     <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/conversor"
-        android:background="@color/blanco"/>
-  </LinearLayout>
-
-  <Button
+    <Button
+    android:background="#c4ff82"
+    android:textColor="#5fad0a"
     android:text="Conversor"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     local:MvxBind="Click Convertir" />
+</LinearLayout>
 </LinearLayout>

@@ -28,7 +28,6 @@ namespace Proyect.core.ViewModels
         public viewModelClima( )
         {
 
-           // datos = new DatosClima();
             ListaDeClima = new ObservableCollection<DatosClima>();
         }
         DatosClima datos = new DatosClima();
@@ -89,8 +88,7 @@ namespace Proyect.core.ViewModels
                 this.RaisePropertyChanged(() => this.ListaDeClima);
                     }
                 }
-
-        //  ObservableCollection<DatosClima> ListaDeClima = new ObservableCollection<DatosClima>();
+        
         int numeroConsulta = 1;
      
         private async Task ActualizarClima()
@@ -116,22 +114,6 @@ namespace Proyect.core.ViewModels
             this.numeroConsulta++;
         }
 
-
-/*
-
-        private ICommand guardarClima;
-        public ICommand GuardarClima
-        {
-            get { return this.guardarClima = this.guardarClima ?? new MvxCommand(this.cargarDatos); }
-        }
- 
-        public void cargarDatos()
-        {     
-            ListaDeClima.Add(datos); 
-               
-        }
-        */
-
         private ICommand historial;
         public ICommand Historial
         {
@@ -145,8 +127,7 @@ namespace Proyect.core.ViewModels
 
         }
 
-      
-
+     
 
     }
 }

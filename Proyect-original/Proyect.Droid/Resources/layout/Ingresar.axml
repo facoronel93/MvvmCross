@@ -37,9 +37,11 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Nombre De Usuario" />
-      
+
 
       <EditText
+            android:background="@drawable/EditText"
+            android:singleLine="true"
             android:textColorHint="@color/primaryDark"
             android:textColorHighlight="#c4ff82"
             android:layout_width="match_parent"
@@ -52,6 +54,8 @@
             android:textColor="@color/black"
             android:text="Contraseña" />
       <EditText
+            android:background="@drawable/EditText"
+            android:singleLine="true"
             android:textColorHint="@color/primaryDark"
             android:textColorHighlight="#c4ff82"
             android:layout_width="match_parent"
