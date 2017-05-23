@@ -1,4 +1,5 @@
-﻿using MvvmCross.Core.ViewModels;
+﻿using Acr.UserDialogs;
+using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 using Proyect.core.Services.Models;
 using System;
@@ -18,13 +19,15 @@ namespace Proyect.core.ViewModels
             base.Start();
        
         }
-
-        public RegistroViewModel()
+        private readonly Repository conn;
+        private Persona persona;
+        public RegistroViewModel(Repository repo)
         {
-
+            persona = new Persona();
+            conn = repo;
         }
 
-        Persona persona = new Persona();
+       
 
 
         public string Usuario
@@ -68,14 +71,55 @@ namespace Proyect.core.ViewModels
             }
         }
 
+        public ICommand verificarExistencia
+        {
+            get
+            {
+                return new MvxCommand(async () =>
+                {
+                    await verificarUsuario(persona);
+
+                });
+            }
+        }
+
+        private async Task verificarUsuario(Persona datosPersona)
+        {
+            var resultado = conn.GetUser(datosPersona);
+
+            if (resultado.Usuario == persona.Usuario)
+            {
+                await UserDialogs.Instance.AlertAsync("Nombre de Usuario NO Disponible", "Aviso");
+            }
+            else
+            {
+                await UserDialogs.Instance.AlertAsync("Nombre de Usuario Disponible", "Aviso");
+              
+            }
+        }
 
         public ICommand GuardarPersona
         {
             get
             {
-                return new MvxCommand(() =>
+                return new MvxCommand(async () =>
                 {
-                    Mvx.Resolve<Repository>().Insert(persona).Wait();
+                    var result = await UserDialogs.Instance.ConfirmAsync(new ConfirmConfig
+                    {
+                        Message = "Confimar",
+                        OkText = "OK",
+                        CancelText = "Cancel"
+                    });
+                    if (result)
+                    {
+                        Mvx.Resolve<Repository>().Insert(persona).Wait();
+                    }
+                    else
+                    {
+                        await UserDialogs.Instance.AlertAsync("Operacion Cancelada", "Aviso");
+                    }
+
+                    
                     Close(this);
 
                 });
