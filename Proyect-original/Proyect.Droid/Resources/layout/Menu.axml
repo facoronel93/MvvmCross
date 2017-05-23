@@ -6,10 +6,24 @@
     android:layout_height="fill_parent"
      android:background="@color/blanco">
   <LinearLayout
+     android:orientation="vertical"
+     android:layout_marginEnd="5dp"
+     android:layout_marginTop="20dp"
+     android:layout_marginLeft="70dp"
+     android:layout_marginRight="70dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:gravity="center_horizontal"
+     android:id="@+id/getSection">
+    <ImageView
+        android:id="@+id/Portada"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/images" />
+  </LinearLayout>
+  <LinearLayout
         android:orientation="vertical"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="70dp"
         android:layout_width="match_parent"
@@ -26,8 +40,6 @@
   </LinearLayout>
     <LinearLayout
       android:orientation="vertical"
-      android:layout_marginStart="5dp"
-      android:layout_marginEnd="5dp"
       android:layout_marginTop="5dp"
       android:layout_marginLeft="70dp"
       android:layout_marginRight="70dp"
@@ -42,6 +54,25 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       local:MvxBind="Click Clima" />
-
 </LinearLayout>
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_marginTop="60dp"
+    android:layout_marginLeft="70dp"
+    android:layout_marginRight="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:id="@+id/getSection">
+    <Button
+        android:text="Logout"
+        android:textColor="@color/blanco"
+        android:background="@drawable/btn_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Click Logout" />
+  </LinearLayout>
+
+
 </LinearLayout>

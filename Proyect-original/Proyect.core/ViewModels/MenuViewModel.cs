@@ -1,4 +1,5 @@
-﻿using MvvmCross.Core.ViewModels;
+﻿using Acr.UserDialogs;
+using MvvmCross.Core.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace Proyect.core.ViewModels
                 });
             }
         }
-
+       
         public ICommand Convertir
         {
             get
@@ -29,6 +30,28 @@ namespace Proyect.core.ViewModels
 
                 return new MvxCommand(() => {
                     ShowViewModel<ConversorViewModel>();
+                });
+            }
+        }
+
+        public ICommand Logout
+        {
+            get
+            {
+
+                return new MvxCommand(async () =>
+                {
+
+                    var result = await UserDialogs.Instance.ConfirmAsync(new ConfirmConfig
+                    {
+                        Message = "Confima salir",
+                        OkText = "OK",
+                        CancelText = "Cancel"
+                    });
+                    if (result)
+                    {
+                        ShowViewModel<IngresarViewModel>();
+                    }
                 });
             }
         }
