@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using MvvmCross.Droid.Views;
+using Acr.UserDialogs;
 
 namespace Proyect.Droid.Views
 {
@@ -28,6 +29,7 @@ namespace Proyect.Droid.Views
             base.OnViewModelSet();
             RequestWindowFeature(WindowFeatures.NoTitle);
             SetContentView(Resource.Layout.Ingresar);
+            UserDialogs.Init(this);
 
         }
 

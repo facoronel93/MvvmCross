@@ -1,4 +1,5 @@
-﻿using MvvmCross.Core.ViewModels;
+﻿using Acr.UserDialogs;
+using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
 using Proyect.core.Services.Models;
 using SQLite;
@@ -58,36 +59,55 @@ namespace Proyect.core.ViewModels
             get
             {
                 
-                return new MvxCommand(() => {
-                    verificarUsuario();
-                   // Mvx.Resolve<Repository>().GetUser(persona);
-                  //  Mvx.Resolve<Repository>().Insert(persona).Wait();
+                return new MvxCommand(async () =>
+                {
+                    await verificarUsuario();
                     Close(this);
 
                 });
             }
         }
-      
-        
-        private void verificarUsuario()
-        {
-           var resultado = conn.GetUser(persona);
 
-            if (resultado == "validado")
-            {          
-                ShowViewModel<MenuViewModel>();
-            }
-            else
+        private async Task verificarDatos(Persona persona)
+        {
+            if (persona.Usuario == Usuario)
             {
-                if (resultado == "incorrecto")
+                if (persona.Password == Password)
                 {
-                    // mostrar contraseña incorrecta
+                    var result = await UserDialogs.Instance.ConfirmAsync(new ConfirmConfig
+                    {
+                        Message = "Confimar Login",
+                        OkText = "OK",
+                        CancelText = "Cancel"
+                    });
+                    if (result)
+                    {
+                        ShowViewModel<MenuViewModel>();
+                    }
+                    else
+                    {
+                        ShowViewModel<IngresarViewModel>();
+                    }
+                    
                 }
                 else
                 {
-                    //usuario inexistente
+                  await  UserDialogs.Instance.AlertAsync("constraseña incorrecta", "Aviso");
+                    ShowViewModel<IngresarViewModel>();
                 }
             }
+            else
+            {              
+                await UserDialogs.Instance.AlertAsync("usuario incorrecto", "Aviso");
+                ShowViewModel<IngresarViewModel>();
+            }
+
+        }
+        private async Task verificarUsuario()
+        {
+            var resultado = conn.GetUser(persona);
+
+            await verificarDatos(resultado);
         }
 
 

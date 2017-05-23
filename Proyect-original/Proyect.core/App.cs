@@ -1,6 +1,8 @@
 ﻿
+using Acr.UserDialogs;
 using MvvmCross.Core.ViewModels;
 using MvvmCross.Platform;
+using MvvmCross.Platform.IoC;
 using Proyect.core.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -12,8 +14,16 @@ namespace Proyect.core
 {
     public class App : MvxApplication
     {
-        
-            public App()
+        public override void Initialize()
+        {     
+            CreatableTypes()
+                .EndingWith("Service")
+                .AsInterfaces()
+                .RegisterAsLazySingleton();
+
+            Mvx.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
+        }
+        public App()
             {
 
             RegisterAppStart(new CustomStart());

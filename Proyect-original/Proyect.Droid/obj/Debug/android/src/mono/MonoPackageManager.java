@@ -99,7 +99,10 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "Proyect.Droid.dll" comes first in this list. */
 		"Proyect.Droid.dll",
-		"Mono.Android.Export.dll",
+		"Acr.Support.Android.dll",
+		"Acr.UserDialogs.dll",
+		"Acr.UserDialogs.Interface.dll",
+		"AndHUD.dll",
 		"MvvmCross.Binding.dll",
 		"MvvmCross.Binding.Droid.dll",
 		"MvvmCross.Core.dll",
@@ -108,6 +111,7 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Localization.dll",
 		"MvvmCross.Platform.dll",
 		"MvvmCross.Platform.Droid.dll",
+		"Splat.dll",
 		"SQLite-net.dll",
 		"SQLitePCLPlugin_esqlite3.dll",
 		"SQLitePCLRaw.batteries_green.dll",
@@ -115,24 +119,28 @@ class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"Xamarin.Android.Support.Design.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Mono.Android.Export.dll",
 		"Proyect.core.dll",
-		"System.Threading.dll",
 		"System.Runtime.dll",
+		"System.Threading.Tasks.dll",
 		"System.Collections.dll",
-		"System.Collections.Concurrent.dll",
 		"System.Diagnostics.Debug.dll",
 		"System.Reflection.dll",
-		"System.Linq.dll",
-		"System.Runtime.InteropServices.dll",
-		"System.Runtime.Extensions.dll",
-		"System.Reflection.Extensions.dll",
 		"System.Linq.Expressions.dll",
 		"System.ObjectModel.dll",
 		"System.Globalization.dll",
-		"System.Threading.Tasks.dll",
+		"System.Collections.Concurrent.dll",
+		"System.Threading.dll",
+		"System.Linq.dll",
+		"System.Reflection.Extensions.dll",
 		"System.Resources.ResourceManager.dll",
 		"System.IO.dll",
+		"System.Runtime.Extensions.dll",
 		"SQLitePCL.raw.dll",
+		"System.Runtime.InteropServices.dll",
 		"Newtonsoft.Json.dll",
 		"System.Xml.XDocument.dll",
 		"System.Runtime.Serialization.Primitives.dll",
@@ -144,5 +152,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
 }
