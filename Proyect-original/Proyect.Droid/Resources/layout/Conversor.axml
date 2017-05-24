@@ -122,6 +122,6 @@
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            local:MvxBind="Text NuevoValor,Converter=Currency" />
+            local:MvxBind="Text NuevoValor,Converter=Currency"  />
     </LinearLayout>
 </LinearLayout>

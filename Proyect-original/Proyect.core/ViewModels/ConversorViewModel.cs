@@ -104,19 +104,19 @@ namespace Proyect.core.ViewModels
             RespuestaConversor json = JsonConvert.DeserializeObject<RespuestaConversor>(result);       
             if(json.usd != null)
             {
-                this.NuevoValor = json.usd;
+                this.NuevoValor =monedaDestino+" "+ json.usd;
             }
             else
             {
                 if (json.eur != null)
                 {
-                    this.NuevoValor = json.eur;
+                    this.NuevoValor = monedaDestino + " " + json.eur;
                 }
                 else
                 {
                     if (json.ars != null)
                     {
-                        this.NuevoValor = json.ars;
+                        this.NuevoValor = monedaDestino + " " + json.ars;
                     }
                 }
 
