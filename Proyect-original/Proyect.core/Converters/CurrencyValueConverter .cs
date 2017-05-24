@@ -10,39 +10,28 @@ namespace Proyect.core.Converters
 {
     public class CurrencyConverter : MvxValueConverter<string, string>
     {
+       
         protected override string Convert(string value, Type targetType, object parameter, CultureInfo culture)
         {
            value = value ?? " ";
-            var cadena = new StringBuilder(value);
+            var tipoMoneda = value.Substring(0, Math.Min(value.Length, 3));
+            var valor = value.Substring(3);
+
+            switch (tipoMoneda)
+            {
+                case "ARS":
+                    return "$ " + valor;
+                  
+                case "USD":
+                    return "US$ " + valor;
+                    
+                case "EUR":
+                    return "€ " + valor;       
+            }
+            return string.Empty;
             
-  
-            if (cadena[0]=='A' && cadena[1] == 'R' && cadena[2] == 'S' )
-            {
-                cadena[0] = cadena[1] = ' ';
-                cadena[2] = '$';
-                return cadena.ToString();
-            }
-            else
-            {
-                if (cadena[0] == 'U' && cadena[1] == 'S' && cadena[2] == 'D')
-                {
-                    cadena[0] = 'U';
-                    cadena[1] = 'S';
-                    cadena[2] = '$';
-                    return cadena.ToString();
-                }
-                else
-                {
-                    if (cadena[0] == 'E' && cadena[1] == 'U' && cadena[2] == 'R')
-                    {
-                        cadena[0] = cadena[1] = ' ';
-                        cadena[2] = '€';
-                        return cadena.ToString();
-                    }
-                }
-                return string.Empty;
-            }
         }
+
     }
 
 
