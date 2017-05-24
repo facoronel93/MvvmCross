@@ -105,9 +105,18 @@ namespace Proyect.core.ViewModels
         }
         private async Task verificarUsuario()
         {
-            var resultado = conn.GetUser(persona);
+            try
+            {
+                var resultado = conn.GetUser(persona);
 
-            await verificarDatos(resultado);
+                await verificarDatos(resultado);
+            }
+            catch(Exception )
+            {
+                await UserDialogs.Instance.AlertAsync("usuario incorrecto", "Aviso");
+                ShowViewModel<IngresarViewModel>();
+            }
+
         }
 
 

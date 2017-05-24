@@ -85,17 +85,21 @@ namespace Proyect.core.ViewModels
 
         private async Task verificarUsuario(Persona datosPersona)
         {
-            var resultado = conn.GetUser(datosPersona);
-
-            if (resultado.Usuario == persona.Usuario)
+            try
             {
-                await UserDialogs.Instance.AlertAsync("Nombre de Usuario NO Disponible", "Aviso");
+                var resultado = conn.GetUser(datosPersona);
+
+                if (resultado.Usuario == persona.Usuario)
+                {
+                    await UserDialogs.Instance.AlertAsync("Nombre de Usuario NO Disponible", "Aviso");
+                }
             }
-            else
+            catch (Exception)
             {
                 await UserDialogs.Instance.AlertAsync("Nombre de Usuario Disponible", "Aviso");
-              
+                ShowViewModel<RegistroViewModel>();
             }
+        
         }
 
         public ICommand GuardarPersona
