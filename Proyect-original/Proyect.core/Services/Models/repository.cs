@@ -16,12 +16,8 @@ namespace Proyect.core.Services.Models
         
         public Repository(string dbPath)
         {
-            Persona hola = new Persona();
-            hola.Usuario = "fede";
-            hola.Password = "fede";
             conn = new SQLiteAsyncConnection(dbPath);
             conn.CreateTableAsync<Persona>().Wait();
-            conn.InsertAsync(hola).ConfigureAwait(continueOnCapturedContext: false);
 
         }
 
@@ -31,16 +27,12 @@ namespace Proyect.core.Services.Models
         }
        
 
-
-        Persona asd = new Persona();
-
     public Persona GetUser(Persona usuario)
         {
            
             var query = conn.Table<Persona>().Where(
                    p1 => p1.Usuario == usuario.Usuario).FirstAsync();
-
-            asd.Usuario = query.Result.Usuario;
+  
             var resultado = new Persona
             {
                 Password = query.Result.Password,

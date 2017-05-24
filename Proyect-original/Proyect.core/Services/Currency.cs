@@ -29,22 +29,5 @@ namespace Proyect.core.Services
         {
             return Valor;
         }
-
-        /*private string valor;
-        public string Valor
-        {
-            get
-            {
-                return valor;
-            }
-
-            set
-            {
-                valor = value;
-            }
-        }*/
-
-
-
     }
 }

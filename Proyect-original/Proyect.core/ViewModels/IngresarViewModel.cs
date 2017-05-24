@@ -74,12 +74,14 @@ namespace Proyect.core.ViewModels
             {
                 if (persona.Password == Password)
                 {
-                    var result = await UserDialogs.Instance.ConfirmAsync(new ConfirmConfig
-                    {
-                        Message = "Confimar Login",
-                        OkText = "OK",
-                        CancelText = "Cancel"
-                    });
+                     var result = await UserDialogs.Instance.ConfirmAsync(new ConfirmConfig
+                     {
+                         Message = "Confimar Login",
+                         OkText = "OK",
+                         CancelText = "Cancel"
+                     });
+
+                  
                     if (result)
                     {
                         ShowViewModel<MenuViewModel>();

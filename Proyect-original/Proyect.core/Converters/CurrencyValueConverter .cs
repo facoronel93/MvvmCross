@@ -16,20 +16,21 @@ namespace Proyect.core.Converters
            value = value ?? " ";
             var tipoMoneda = value.Substring(0, Math.Min(value.Length, 3));
             var valor = value.Substring(3);
+            string simbolo = string.Empty;
 
             switch (tipoMoneda)
             {
                 case "ARS":
-                    return "$ " + valor;
-                  
+                    simbolo= "$";
+                    break;
                 case "USD":
-                    return "US$ " + valor;
-                    
+                    simbolo ="US$";
+                    break;
                 case "EUR":
-                    return "€ " + valor;       
+                    simbolo = "€";
+                    break;    
             }
-            return string.Empty;
-            
+            return $"{simbolo} {valor}";
         }
 
     }
