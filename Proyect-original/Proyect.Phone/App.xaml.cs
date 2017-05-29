@@ -6,7 +6,6 @@ using System.Windows.Markup;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Proyect.Phone.Resources;
 
 namespace Proyect.Phone
 {
@@ -55,6 +54,7 @@ namespace Proyect.Phone
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             }
             var setup = new Setup(RootFrame);
+            setup.Initialize();
 
         }
 

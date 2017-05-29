@@ -37,9 +37,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Nombre De Usuario" />
-
-
-      <EditText
+        <EditText
             android:background="@drawable/EditText"
             android:singleLine="true"
             android:textColorHint="@color/primaryDark"
@@ -48,12 +46,12 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             local:MvxBind="Text Usuario" />
-      <TextView
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:text="Contraseña" />
-      <EditText
+        <EditText
             android:background="@drawable/EditText"
             android:singleLine="true"
             android:textColorHint="@color/primaryDark"

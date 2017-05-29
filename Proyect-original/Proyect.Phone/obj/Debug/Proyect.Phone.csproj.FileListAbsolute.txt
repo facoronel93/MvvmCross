@@ -45,3 +45,11 @@ D:\aaa\Proyect-original\Proyect.Phone\obj\Debug\MainPage.g.cs
 D:\aaa\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.g.resources
 D:\aaa\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.dll
 D:\aaa\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.pdb
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.csprojResolveAssemblyReference.cache
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\App.g.cs
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\MainPage.g.cs
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.dll
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.pdb
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\Views\IngresarView.g.cs
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\Proyect.Phone.g.resources
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\test\Proyect-original\Proyect.Phone\obj\Debug\Views\IngresarViewWP.g.cs
