@@ -55,34 +55,23 @@
       android:layout_height="wrap_content"
       local:MvxBind="Click Clima" />
 </LinearLayout>
-  <LinearLayout
-  android:orientation="vertical"
-  android:layout_marginTop="5dp"
-  android:layout_marginLeft="70dp"
-  android:layout_marginRight="70dp"
-  android:layout_width="match_parent"
-  android:layout_height="wrap_content"
-  android:gravity="center_horizontal"
-  android:id="@+id/getSection">
-    <Button
-  android:layout_width="fill_parent"
-  android:layout_height="wrap_content"
-  android:text="Take Picture"
-  local:MvxBind="Click TakePictureCommand"
-    />
-    <Button
-      android:layout_width="fill_parent"
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_marginTop="5dp"
+      android:layout_marginLeft="70dp"
+      android:layout_marginRight="70dp"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Choose Picture"
-      local:MvxBind="Click ChoosePictureCommand"
-    />
-    <ImageView
-      android:layout_width="fill_parent"
+      android:gravity="center_horizontal"
+      android:id="@+id/getSection">
+  <Button
+      android:text="Menu Camara"
+      android:background="#c4ff82"
+      android:textColor="#5fad0a"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      local:MvxBind="Bitmap Bytes,Converter=InMemoryImage"
-    />
-  </LinearLayout>
-
+      local:MvxBind="Click Camara" />
+</LinearLayout>
   <LinearLayout
     android:orientation="vertical"
     android:layout_marginTop="60dp"

@@ -14,6 +14,10 @@ Proyect.Droid.Views.IngresarView, Proyect.Droid;md505b6399a24b8802c55ae53155e40e
 Proyect.Droid.Views.IngresarView, Proyect.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505b6399a24b8802c55ae53155e40e74b.IngresarView
 Proyect.Droid.Views.IngresarView;md505b6399a24b8802c55ae53155e40e74b.IngresarView
 proyect.droid.views.IngresarView;md505b6399a24b8802c55ae53155e40e74b.IngresarView
+Proyect.Droid.Views.MenuCamaraView, Proyect.Droid;md505b6399a24b8802c55ae53155e40e74b.MenuCamaraView
+Proyect.Droid.Views.MenuCamaraView, Proyect.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505b6399a24b8802c55ae53155e40e74b.MenuCamaraView
+Proyect.Droid.Views.MenuCamaraView;md505b6399a24b8802c55ae53155e40e74b.MenuCamaraView
+proyect.droid.views.MenuCamaraView;md505b6399a24b8802c55ae53155e40e74b.MenuCamaraView
 Proyect.Droid.Views.MenuView, Proyect.Droid;md505b6399a24b8802c55ae53155e40e74b.MenuView
 Proyect.Droid.Views.MenuView, Proyect.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md505b6399a24b8802c55ae53155e40e74b.MenuView
 Proyect.Droid.Views.MenuView;md505b6399a24b8802c55ae53155e40e74b.MenuView

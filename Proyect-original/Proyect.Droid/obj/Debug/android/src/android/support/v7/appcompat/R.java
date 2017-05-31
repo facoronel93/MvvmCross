@@ -2484,20 +2484,21 @@ containing a value of this type.
         public static int loadingimage=0x7f030029;
         public static int loadingprogress=0x7f03002a;
         public static int menu=0x7f03002b;
-        public static int notification_media_action=0x7f03002c;
-        public static int notification_media_cancel_action=0x7f03002d;
-        public static int notification_template_big_media=0x7f03002e;
-        public static int notification_template_big_media_narrow=0x7f03002f;
-        public static int notification_template_lines=0x7f030030;
-        public static int notification_template_media=0x7f030031;
-        public static int notification_template_part_chronometer=0x7f030032;
-        public static int notification_template_part_time=0x7f030033;
-        public static int registro=0x7f030034;
-        public static int select_dialog_item_material=0x7f030035;
-        public static int select_dialog_multichoice_material=0x7f030036;
-        public static int select_dialog_singlechoice_material=0x7f030037;
-        public static int splashscreen=0x7f030038;
-        public static int support_simple_spinner_dropdown_item=0x7f030039;
+        public static int menucamara=0x7f03002c;
+        public static int notification_media_action=0x7f03002d;
+        public static int notification_media_cancel_action=0x7f03002e;
+        public static int notification_template_big_media=0x7f03002f;
+        public static int notification_template_big_media_narrow=0x7f030030;
+        public static int notification_template_lines=0x7f030031;
+        public static int notification_template_media=0x7f030032;
+        public static int notification_template_part_chronometer=0x7f030033;
+        public static int notification_template_part_time=0x7f030034;
+        public static int registro=0x7f030035;
+        public static int select_dialog_item_material=0x7f030036;
+        public static int select_dialog_multichoice_material=0x7f030037;
+        public static int select_dialog_singlechoice_material=0x7f030038;
+        public static int splashscreen=0x7f030039;
+        public static int support_simple_spinner_dropdown_item=0x7f03003a;
     }
     public static final class string {
         public static int ApplicationName=0x7f050015;
