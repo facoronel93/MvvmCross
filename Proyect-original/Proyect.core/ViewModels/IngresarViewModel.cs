@@ -95,13 +95,13 @@ namespace Proyect.core.ViewModels
                 else
                 {
                   await  UserDialogs.Instance.AlertAsync("constraseña incorrecta", "Aviso");
-                    ShowViewModel<IngresarViewModel>();
+                    // ShowViewModel<IngresarViewModel>();
                 }
             }
             else
             {              
                 await UserDialogs.Instance.AlertAsync("usuario incorrecto", "Aviso");
-                ShowViewModel<IngresarViewModel>();
+              //  ShowViewModel<IngresarViewModel>();
             }
 
         }

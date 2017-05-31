@@ -4,6 +4,7 @@
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.CAMERA" />
   <application android:label="Clima.Clima" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="Clima" android:name="md5d2b99979f632ebc8511266eb02403f08.climaView" />
     <activity android:icon="@drawable/icon" android:label="Conversor" android:name="md505b6399a24b8802c55ae53155e40e74b.ConversorView" />

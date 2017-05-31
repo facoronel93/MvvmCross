@@ -111,6 +111,8 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Localization.dll",
 		"MvvmCross.Platform.dll",
 		"MvvmCross.Platform.Droid.dll",
+		"MvvmCross.Plugins.PictureChooser.dll",
+		"MvvmCross.Plugins.PictureChooser.Droid.dll",
 		"Splat.dll",
 		"SQLite-net.dll",
 		"SQLitePCLPlugin_esqlite3.dll",
@@ -152,5 +154,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
 }
