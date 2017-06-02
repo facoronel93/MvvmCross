@@ -2532,4 +2532,6 @@ C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.
 C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll.mdb
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\bin\Debug\Proyect.Droid.dll.mdb
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\UWP\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.csprojResolveAssemblyReference.cache
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\UWP\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.dll
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\UWP\Proyect-original\Proyect.Droid\obj\Debug\Proyect.Droid.pdb

@@ -30,21 +30,14 @@ namespace Proyect.core.Services.Models
     public Persona GetUser(Persona usuario)
         {
             var resultado = new Persona();
-            try
-            {
                 var query = conn.Table<Persona>().Where(
-                                   p1 => p1.Usuario == usuario.Usuario).FirstAsync();
+                                   p1 => p1.Usuario == usuario.Usuario).FirstOrDefaultAsync();
 
                 resultado.Password = query.Result.Password;
                 resultado.Email = query.Result.Email;
                 resultado.Usuario = query.Result.Usuario;
                 resultado.Nombre = query.Result.Nombre;
-                return resultado;
-            }
-            catch
-            {
-                return resultado;
-            }         
+                return resultado;               
        }
 
                 
