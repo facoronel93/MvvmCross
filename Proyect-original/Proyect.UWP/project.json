@@ -2,7 +2,7 @@
   "dependencies": {
     "Acr.MvvmCross.Plugins.UserDialogs": "5.0.0",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-    "MvvmCross": "4.2.1",
+    "MvvmCross.Core": "4.2.3",
     "SQLite-Net-PCL": "1.1.2"
   },
   "frameworks": {
