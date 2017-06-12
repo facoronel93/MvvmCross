@@ -62,8 +62,6 @@ namespace Proyect.core.ViewModels
                 return new MvxCommand(async () =>
                 {
                     await verificarUsuario();
-                    Close(this);
-
                 });
             }
         }
@@ -95,13 +93,11 @@ namespace Proyect.core.ViewModels
                 else
                 {
                   await  UserDialogs.Instance.AlertAsync("constraseña incorrecta", "Aviso");
-                    // ShowViewModel<IngresarViewModel>();
                 }
             }
             else
             {              
                 await UserDialogs.Instance.AlertAsync("usuario incorrecto", "Aviso");
-              //  ShowViewModel<IngresarViewModel>();
             }
 
         }

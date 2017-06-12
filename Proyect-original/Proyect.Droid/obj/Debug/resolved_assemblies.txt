@@ -1,67 +1,67 @@
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Proyect.Droid.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Acr.Support.Android.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\AndHUD.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Binding.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Binding.Droid.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Core.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Droid.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Droid.Shared.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Localization.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Platform.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Platform.Droid.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Plugins.PictureChooser.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Plugins.PictureChooser.Droid.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Splat.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLite-net.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLPlugin_esqlite3.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.core.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Java.Interop.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Mono.Android.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Mono.Android.Export.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\mscorlib.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Core.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.IO.Compression.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Net.Http.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Proyect.core.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Collections.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Reflection.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ObjectModel.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Globalization.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Threading.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Linq.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.IO.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCL.raw.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Mono.CSharp.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
-C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\cam\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Proyect.Droid.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Acr.Support.Android.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\AndHUD.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Binding.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Binding.Droid.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Core.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Droid.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Droid.Shared.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Localization.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Platform.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Platform.Droid.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Plugins.PictureChooser.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\MvvmCross.Plugins.PictureChooser.Droid.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Splat.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLite-net.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLPlugin_esqlite3.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.batteries_green.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.batteries_v2.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.core.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.lib.e_sqlite3.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Xamarin.Android.Support.Design.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v4.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Java.Interop.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Microsoft.CSharp.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Mono.Android.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Mono.Android.Export.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\mscorlib.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Core.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.IO.Compression.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Net.Http.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.Linq.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Proyect.core.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Threading.Tasks.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Collections.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Reflection.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Linq.Expressions.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ObjectModel.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Globalization.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Threading.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Linq.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Reflection.Extensions.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Resources.ResourceManager.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.IO.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.Extensions.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\SQLitePCL.raw.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Mono.CSharp.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\Newtonsoft.Json.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.XDocument.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Dynamic.Runtime.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Xml.ReaderWriter.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Text.Encoding.dll
+D:\Arreglar android\Proyect-original\Proyect.Droid\obj\Debug\android\assets\System.Text.Encoding.Extensions.dll

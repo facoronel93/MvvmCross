@@ -78,28 +78,23 @@ namespace Proyect.core.ViewModels
                 return new MvxCommand(async () =>
                 {
                     await verificarUsuario(persona);
-
                 });
             }
         }
 
         private async Task verificarUsuario(Persona datosPersona)
         {
-            try
-            {
+
                 var resultado = conn.GetUser(datosPersona);
 
                 if (resultado.Usuario == persona.Usuario)
                 {
-                    await UserDialogs.Instance.AlertAsync("Nombre de Usuario NO Disponible", "Aviso");
+                    await UserDialogs.Instance.AlertAsync("Nombre de Usuario no Disponible", "Aviso");
                 }
-            }
-            catch (Exception)
-            {
-                await UserDialogs.Instance.AlertAsync("Nombre de Usuario Disponible", "Aviso");
-                ShowViewModel<RegistroViewModel>();
-            }
-        
+                else
+                {
+                     await UserDialogs.Instance.AlertAsync("Nombre de Usuario Disponible", "Aviso");
+                }
         }
 
         public ICommand GuardarPersona
@@ -116,16 +111,23 @@ namespace Proyect.core.ViewModels
                     });
                     if (result)
                     {
-                        Mvx.Resolve<Repository>().Insert(persona).Wait();
+                        var resultado = conn.GetUser(persona);
+                        if(resultado.Usuario != null)
+                        {
+                            await UserDialogs.Instance.AlertAsync("Nombre de Usuario no diponible", "Aviso");
+                        }
+                        else
+                        {
+                            Mvx.Resolve<Repository>().Insert(persona).Wait();
+                            await UserDialogs.Instance.AlertAsync("Usuario Registrado", "Aviso");
+                            ShowViewModel<IngresarViewModel>();
+                        }
+
                     }
                     else
                     {
                         await UserDialogs.Instance.AlertAsync("Operacion Cancelada", "Aviso");
                     }
-
-                    
-                    Close(this);
-
                 });
             }
         }
