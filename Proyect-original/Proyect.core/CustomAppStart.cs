@@ -21,7 +21,7 @@ namespace Proyect.core
         {
             // ShowViewModel is a core navigation mechanism in MvvmCross.
             // for now, just start the regular MainMenuViewModel view.
-            this.ShowViewModel<Proyect.core.ViewModels.RegistroViewModel>();
+           ShowViewModel<IngresarViewModel>();
         }
     }
 }

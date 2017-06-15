@@ -1,0 +1,2 @@
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\nuevo\Proyect-original\Proyect.core\Proyect.core.csproj;neutral
+C:\Users\sistemas.NB01AGRARIA\Desktop\Programacion\nuevo\Proyect-original\RestaurantBilling.UI.UWP\Proyect.UWP.csproj;x86

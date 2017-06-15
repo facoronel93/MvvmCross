@@ -14,30 +14,24 @@ namespace Proyect.core
 {
     public class App : MvxApplication
     {
-        public override void Initialize()
-        {     
-            CreatableTypes()
-                .EndingWith("Service")
-                .AsInterfaces()
-                .RegisterAsLazySingleton();
 
-            Mvx.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
-        }
         public App()
             {
+            Mvx.RegisterSingleton<IUserDialogs>(() => UserDialogs.Instance);
+            //  RegisterAppStart(new CustomStart());
+            var appStart = new CustomAppStart();
+            Mvx.RegisterSingleton<IMvxAppStart>(appStart);
 
-            RegisterAppStart(new CustomStart());
-
-            }
+        }
             
             //
-            public class CustomStart : MvxNavigatingObject, IMvxAppStart
+           /* public class CustomStart : MvxNavigatingObject, IMvxAppStart
              {
                  public void Start(object hint = null)
                  {
                 this.ShowViewModel<IngresarViewModel>();
                  }
-             }
+             }*/
 
     }   
  }
